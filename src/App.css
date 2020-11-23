@@ -1,38 +1,89 @@
-.App {
+button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+.numbers{
+  background-color: #555555; /* Green */
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  width: 5em;
+  height: 5em
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.numbers:hover {
+  background-color: #8f8d8d; /* Green */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.operator{
+  background-color: #817f7f; /* Green */
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  width: 5em;
+  height: 5em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.clear{
+  width: 10em;
+  height: 5em;
+  background-color: #cf1919; /* Green */
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+#equal{
+  background-color: #260eb1; /* Green */
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+  width: 5em;
+  height: 5em;
+}
+.buttons{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.middle-container{
+  display: block;
+  text-align: center;
+  margin-top: 5em;
+}
+.input{
+  width: 20em;
+  height: 4em;
+  background-color: black;
   color: white;
+  font-size: 16px;
+  text-align: end;
+  margin-left: auto;
+  margin-right: auto;
+}
+#zero{
+  width: 15em;
+}
+.row-5{
+  margin-right: 5em;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
